@@ -6,7 +6,7 @@ public class TaskTwo {
 	
 	@BeforeClass
 	public void beforeClass() {
-		System.out.println("This is before Class");
+		System.out.println("Before class executes.");
 	}
 	
 	@AfterClass
@@ -26,19 +26,18 @@ public class TaskTwo {
 	
 	@Test
 	public void testOne() {
-		System.out.println("Step 1");
-		System.out.println("Step 2");
-		System.out.println("Step 3");
+		System.out.println("This is Test One annotation");
+	
 	}
 
 	@Test
 	public void testTwo() {
-		System.out.println("Test Case 2");
+		System.out.println("Test Two Annotation");
 	}
 
 	@Test
 	public void testThree() {
-		System.out.println("Test Case 3");
+		System.out.println("Test Three annotation");
 	}
 
 }
